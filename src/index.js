@@ -13,12 +13,12 @@ const menu = document.querySelector('#menu-btn');
 const about = document.querySelector('#about-btn');
 
 
-/** Show the homepage content when the page first load
+// Show the homepage content when the page first load
 document.addEventListener('DOMContentLoaded', () => {
     content.innerText = '';
     background.innerHTML = backgroundContent;
     content.appendChild(homepageContent);
-}) */
+})
 
 home.addEventListener('click', () => {
     content.innerText = '';
